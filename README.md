@@ -1,8 +1,8 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - Split Fiction Arcs
 
-Submitted by: **Your name here**
+Submitted by: Tasmia Chowdhury
 
-About this web app: **App description here**
+About this web app: Displays all of Mio and Zoe's stories. 
 
 Time spent: **X** hours
 
