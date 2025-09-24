@@ -2,27 +2,27 @@
 
 Submitted by: Tasmia Chowdhury
 
-About this web app: Displays all of Mio and Zoe's stories. 
+About this web app: Displays all of Mio and Zoe's stories in the game Split Fiction. Premise of the game - two authors get tangled up in a simulator that steals ideas, after Mio drops in Zoe's pod she creates an unknown glitch. They're both interlacing through each others stories to try and catch all the glitches in order to destroy the extractor machine. 
 
-Time spent: **X** hours
+Time spent: **5** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is styled using Picocss**
+- [✅] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [✅] **The web app displays a title**
+- [✅] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
+- [✅] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [✅] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
+  - [✅] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [✅] **The web app serves an appropriate 404 page when no matching route is defined**
+- [✅] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [✅] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
 The following **additional** features are implemented:
 
@@ -47,9 +47,12 @@ GIF created with ...  Add GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+## Future Improvemnts 
+
+Fix the styling to be responsive that was my only issue, trying to get my custom css to work with picocss classes.
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Tasmia Chowdhury]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
