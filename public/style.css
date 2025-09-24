@@ -39,3 +39,88 @@
     text-transform: uppercase;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.bottom-container {
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.bottom-container h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.bottom-container p {
+    margin: 2px;
+}
+
+.bottom-container a {
+    color: rgb(192, 41, 132);
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+}
+.bottom-container a:hover {
+    background-color: rgb(231, 159, 202);
+    
+}
+
+/* 404 Page CSS */
+
+.fof-container{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1 {
+    color:rgb(26, 25, 25);
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .6s alternate infinite;
+}
+
+@keyframes type {
+    from {box-shadow: inset -3px 0px 0px #888;}
+    to {box-shadow: inset -3px 0px 0px transparent;}
+}
