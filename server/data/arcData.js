@@ -67,7 +67,7 @@ const arcData =[
         "type": "Side Story", 
         "title": "Collapsing Star", 
         "author": "Mio", 
-        "image": "https://static.wikia.nocookie.net/split-fiction/images/f/fb/Collapsing_Star.png/revision/latest?cb=20250309004617",  
+        "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/split-fiction-collapsing-star-side-story-hide-behind-moving-windows.jpg?q=49&fit=crop&w=145&h=80&dpr=2",  
     }, 
     {
         "id": 11,
@@ -102,7 +102,7 @@ const arcData =[
         "type": "Side Story", 
         "title": "Space Escape", 
         "author": "Mio", 
-        "image": "https://static.wikia.nocookie.net/split-fiction/images/3/36/Space_Escape.png/revision/latest?cb=20250312213049",  
+        "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/split-fiction-space-escape-side-story-walkthrough-7-matching-puzzle-1.jpg?q=49&fit=contain&w=750&h=422&dpr=2",  
     }, 
       {
         "id": 16,
@@ -130,7 +130,7 @@ const arcData =[
         "type": "Main Plot", 
         "title": "Split", 
         "author": "Mio & Zoe", 
-        "image": "https://staticg.sportskeeda.com/editor/2025/03/dd449-17416889064095-1920.jpg?w=640",  
+        "image": "https://kotaku.com/app/uploads/2025/03/23f1a9871494a2b10b8d369d092c48d4.gif",  
     }, 
 ]
 
