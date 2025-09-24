@@ -20,7 +20,7 @@ const renderArcs = async () =>{
             const link = document.createElement('a');
             link.textContent = "Read More";
             link.setAttribute('role', 'button');
-            link.href = `/arcs/${arc.id}`
+            link.href = `/arc.html?id=${arc.id}`;
             bottomContainer.appendChild(link);
             card.appendChild(topContainer);
             card.appendChild(bottomContainer);
