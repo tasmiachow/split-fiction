@@ -1,132 +1,127 @@
 const arcData =[
     {
-        "id": 1,
         "type": "Main Plot", 
         "title": "Freedom Fighters", 
         "author": "Mio", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/tooltip-freedom-fighters-walkthrough-split-fiction-wiki-guide-300px.jpg",  
     }, 
     {
-        "id": 2,
         "type": "Main Plot", 
         "title": "Brave Knights", 
         "author": "Zoe", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/tooltip-brave-knights-walkthrough-split-fiction-wiki-guide-300px.jpg",  
     }, 
     {
-        "id": 3,
         "type": "Main Plot", 
         "title": "Neon Revenge", 
         "author": "Mio", 
         "image": "https://i.ytimg.com/vi/-ELHXHM3ndU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD9_Y5TBBSluo8ju2Ek-3tYLglHxA",  
     }, 
     {
-        "id": 4,
+
         "type": "Side Story", 
         "title": "The Legend of the Sandfish", 
         "author": "Zoe", 
         "image": "https://primagames.com/wp-content/uploads/2025/03/sandfish-puzzle-guide-in-Split-Fiction.jpg?resize=768,432",  
     }, 
     {
-        "id": 5,
+    
         "type": "Side Story", 
         "title": "Farm Life", 
         "author": "Zoe", 
         "image": "https://i.makeagif.com/media/3-11-2025/iZLcHW.gif",  
     }, 
     {
-        "id": 6,
+        
         "type": "Side Story", 
         "title": "Mountain Hike", 
         "author": "Zoe", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/mountain-part1-600px-split-fiction-wiki.png",  
     }, 
     {
-        "id": 7,
+       
         "type": "Main Plot", 
         "title": "Hopes of Spring", 
         "author": "Zoe", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/silly-monkeys-waterwheel-600px-split-fiction-wiki.png",  
     }, 
     {
-        "id": 8,
+        
         "type": "Side Story", 
         "title": "Train Heist", 
         "author": "Mio", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/train-heist-train-cars-split-fiction-wiki.jpg",  
     }, 
     {
-        "id": 9,
+    
         "type": "Side Story", 
         "title": "Gameshow", 
         "author": "Mio", 
         "image": "https://i.ytimg.com/vi/jloD_JC0HVs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLApH7WVVuBLAnxwGF32fMXVIdJkXg",  
     }, 
      {
-        "id": 10,
+        
         "type": "Side Story", 
         "title": "Collapsing Star", 
         "author": "Mio", 
         "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/split-fiction-collapsing-star-side-story-hide-behind-moving-windows.jpg?q=49&fit=crop&w=145&h=80&dpr=2",  
     }, 
     {
-        "id": 11,
+        
         "type": "Main Plot", 
         "title": "Final Dawn", 
         "author": "Mio", 
         "image": "https://i.ytimg.com/vi/R8FQfd6lrW4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7z_v3caRE9ntDBs9ShrzLkLlh2A",  
     }, 
     {
-        "id": 12,
+     
         "type": "Side Story", 
         "title": "Notebook", 
         "author": "Zoe", 
         "image": "https://splitfiction.wiki.fextralife.com/file/Split-Fiction/the-notebook-split-fiction-wiki.jpg",  
     }, 
     {
-        "id": 13,
+    
         "type": "Main Plot", 
         "title": "Rise of the Dragon Realm", 
         "author": "Zoe", 
         "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/split-fiction-rise-of-the-dragon-realm-level-walkthrough-29-might-of-dragons-2.jpg?w=1600&h=900&fit=crop",  
     }, 
     {
-        "id": 14,
+
         "type": "Side Story", 
         "title": "Slopes of War", 
         "author": "Mio", 
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwNR-304A8BBphHGYqeWsn9brPeXDuDwASaqxzYJdwhAajO0S6uHEvTt9u8oYoTrY0ZA&usqp=CAU",  
     }, 
     {
-        "id": 15,
+    
         "type": "Side Story", 
         "title": "Space Escape", 
         "author": "Mio", 
         "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/split-fiction-space-escape-side-story-walkthrough-7-matching-puzzle-1.jpg?q=49&fit=contain&w=750&h=422&dpr=2",  
     }, 
       {
-        "id": 16,
         "type": "Side Story", 
         "title": "Birthday Cake", 
         "author": "Mio", 
         "image": "https://i.ytimg.com/vi/5yiVoHx5Na8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDaZ7llNhjq09SEveLSaL1cwgLlEg",  
     }, 
     {
-        "id": 17,
+    
         "type": "Main Plot", 
         "title": "Isolation", 
         "author": "Mio", 
         "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/split-fiction/b/ba/Split-fiction-isolation3.jpg?width=640",  
     }, 
     {
-        "id": 19,
+
         "type": "Main Plot", 
         "title": "The Hollow", 
         "author": "Zoe", 
         "image": "https://splitfiction.wiki.fextralife.com/file/XSplit-Fiction/anominouswelcome-illuminate1gif-thehollow-split-fiction-wiki-guide-min.gif",  
     }, 
     {
-        "id": 20,
         "type": "Main Plot", 
         "title": "Split", 
         "author": "Mio & Zoe", 

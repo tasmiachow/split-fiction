@@ -29,25 +29,21 @@ const createArcsTable = async () => {
 
 const seedArcsTable = async () =>{
     await createArcsTable();
-    arcData.forEach((arc) =>{
+    for (const arc of arcData) {
         const insertQuery = {
-            text: 'INSERT INTO arcs (type, title, author, image) VALUES ($1, $2, $3, $4)'
-        }
-        const values = [
-            arc.type, 
-            arc.title, 
-            arc.author, 
-            arc.image
-        ];
-         pool.query(insertQuery, values, (err, res) => {
-            if (err) {
-                console.error('⚠️ error inserting arc', err)
-                return
-            }
+        text: 'INSERT INTO arcs (type, title, author, image) VALUES ($1, $2, $3, $4)',
+        values: [arc.type, arc.title, arc.author, arc.image],
+        };
 
-            console.log(`✅ ${arc.title} added successfully`)
-        })
-    });
+        try {
+        await pool.query(insertQuery); // wait for this insert to complete
+        console.log(`✅ ${arc.title} added successfully`);
+        } catch (err) {
+        console.error(`⚠️ error inserting ${arc.title}`, err);
+        }
+    }
+
+    console.log('🌟 All arcs inserted in order successfully');
 }
 
 
