@@ -2,7 +2,11 @@
 
 Submitted by: **Tasmia Chowdhury**
 
-About this web app: Displays all of Mio and Zoe's stories in the game *Split Fiction.* Premise of the game - two authors get tangled up in a simulator that steals ideas, after Mio drops in Zoe's pod she creates an unknown glitch. They're both interlacing through each others stories to try and catch all the glitches in order to destroy the idea extractor machine. 
+## About this web app: 
+Displays all of Mio and Zoe's stories in the game *Split Fiction.* 
+
+## Premise of the game:   
+Two authors are caught inside a story simulator that extracts their written works. When Mio drops into Zoe’s pod, she unknowingly creates a glitch, forcing them to weave through each other’s narratives. To escape, Mio and Zoe must track down and catch every glitch before time runs out. Only then can they destroy the idea extractor machine from the inside—before it steals all their creations for good.
 
 Time spent: **3** hours
 
