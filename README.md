@@ -40,7 +40,7 @@ GIF created with ...  GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Had some challenges migrating the data locally to postresql, because it would not go into the table sequentially due to a race condition caused with the for each function.
 
 ## License
 
