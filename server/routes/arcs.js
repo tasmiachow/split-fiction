@@ -1,6 +1,7 @@
 import express from'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import ArcsController from '../controllers/arcs.js';
 import arcData from '../data/arcData.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -10,9 +11,8 @@ const router = express.Router();
 
 
 
-router.get('/', (req, res) =>{
-    res.status(200).json(arcData);
-});
+router.get('/', ArcsController.getArcs);
+
 
 router.get('/:arcId', (req, res) =>{
     const { arcId } = req.params;
