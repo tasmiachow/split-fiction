@@ -2,7 +2,6 @@ import express from'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import ArcsController from '../controllers/arcs.js';
-import arcData from '../data/arcData.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,15 +13,11 @@ const router = express.Router();
 router.get('/', ArcsController.getArcs);
 
 
-router.get('/:arcId', (req, res) =>{
-    const { arcId } = req.params;
-    const arc = arcData.find(a => String(a.id) === arcId);
+router.get('/api/:arcId', ArcsController.getArcById);
 
-    if (!arc) {
-        return res.status(404).json({ error: "Arc not found" });
-    }
 
-    res.status(200).json(arc);
+router.get('/:arcId', (req, res) => {
+  res.status(200).sendFile(path.resolve(__dirname, '../public/arc.html'));
 });
 
 export default router;

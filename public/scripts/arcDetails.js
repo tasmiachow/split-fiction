@@ -7,7 +7,7 @@ async function renderArcDetails() {
     return;
   }
 
-  const res = await fetch(`/arcs/${arcId}`);
+  const res = await fetch(`/arcs/api/${arcId}`);
   if (!res.ok) {
     document.getElementById('title').textContent = 'Arc not found 😞';
     return;
@@ -15,7 +15,7 @@ async function renderArcDetails() {
 
   const arc = await res.json();
   document.getElementById('title').textContent = arc.title;
-  document.getElementById('type').textContent = arc.type;
+  document.getElementById('type').textContent = `Story Type: ${arc.type}`;
   document.getElementById('author').textContent = `Author: ${arc.author}`;
   const background = document.querySelector('.arc-details');
   if (background) {
